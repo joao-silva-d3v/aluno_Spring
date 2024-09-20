@@ -1,13 +1,10 @@
 package com.aluno.aluno_backend.entities;
-import java.io.Serializable;
-
-import org.springframework.data.jpa.domain.AbstractPersistable;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.metamodel.SingularAttribute;
+
 
 @Entity
 public class Aluno {
@@ -52,9 +49,7 @@ public class Aluno {
         this.period = period;
      }
 
-    public void SetId(SingularAttribute<AbstractPersistable, Serializable> id) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+  
 
 
 
